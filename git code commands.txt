@@ -631,21 +631,9 @@ $ git remote add origin https://github.com/Luekie/Advanced-Programming
 
 Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
 $ git push -u origin main
-Enumerating objects: 14, done.
-Counting objects: 100% (14/14), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (11/11), done.
-Writing objects: 100% (11/11), 69.56 KiB | 3.86 MiB/s, done.
-Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
-To https://github.com/Luekie/Advanced-Programming
-   d211b43..fbdb835  main -> main
-branch 'main' set up to track 'origin/main'.
 
 Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
 $ git push -u origin main
-branch 'main' set up to track 'origin/main'.
-Everything up-to-date
 
 Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
 $ git push -u origin main
