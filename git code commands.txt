@@ -1,0 +1,651 @@
+Lusekero@Bender MINGW64 ~
+$ cd /
+
+Lusekero@Bender MINGW64 /
+$ cd c/users/lusekero/documents/"com 221"/projects/myfirstproject
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ /f
+bash: /f: No such file or directory
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ wq!
+bash: wq!: command not found
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m "new commit"
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ :q!
+bash: :q!: command not found
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Arrays3.exe
+        modified:   Expiration1.exe
+        renamed:    good.cpp -> ExpirationSwitch2.cpp
+        new file:   ExpirationSwitch2.exe
+        new file:   WhileLoop4.cpp
+        new file:   WhileLoop4.exe
+        deleted:    a.exe
+        new file:   dynamicmem.cpp
+        new file:   dynamicmem.exe
+        deleted:    good.docx
+        deleted:    good.exe
+        modified:   switch.exe
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git restore
+fatal: you must specify path(s) to restore
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m "new commit"
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m "new commit"
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m "new commit"
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ ^C
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD <Arrays3>
+bash: syntax error near unexpected token `newline'
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD <Arrays3.exe>
+bash: syntax error near unexpected token `newline'
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD <Arrays3.cpp>
+bash: syntax error near unexpected token `newline'
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD <file>
+bash: syntax error near unexpected token `newline'
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD <file>^C
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ ^C
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git reset HEAD Arrays3.cpp
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commmit -m
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m
+error: switch `m' requires a value
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m kj
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -a
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -am
+error: switch `m' requires a value
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add -i
+           staged     unstaged path
+  1:       binary      nothing Arrays3.exe
+  2:       binary      nothing Expiration1.exe
+  3:       +44/-0      nothing ExpirationSwitch2.cpp
+  4:       binary      nothing ExpirationSwitch2.exe
+  5:       +25/-0      nothing WhileLoop4.cpp
+  6:       binary      nothing WhileLoop4.exe
+  7:       binary      nothing a.exe
+  8:       +29/-0      nothing dynamicmem.cpp
+  9:       binary      nothing dynamicmem.exe
+ 10:       +0/-33      nothing good.cpp
+ 11:        +0/-1      nothing good.docx
+ 12:       binary      nothing good.exe
+ 13:       binary      nothing switch.exe
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 3
+           staged     unstaged path
+  1:       binary      nothing Arrays3.exe
+  2:       binary      nothing Expiration1.exe
+  3:       +44/-0      nothing ExpirationSwitch2.cpp
+  4:       binary      nothing ExpirationSwitch2.exe
+  5:       +25/-0      nothing WhileLoop4.cpp
+  6:       binary      nothing WhileLoop4.exe
+  7:       binary      nothing a.exe
+  8:       +29/-0      nothing dynamicmem.cpp
+  9:       binary      nothing dynamicmem.exe
+ 10:       +0/-33      nothing good.cpp
+ 11:        +0/-1      nothing good.docx
+ 12:       binary      nothing good.exe
+ 13:       binary      nothing switch.exe
+Revert>> 1
+           staged     unstaged path
+* 1:       binary      nothing Arrays3.exe
+  2:       binary      nothing Expiration1.exe
+  3:       +44/-0      nothing ExpirationSwitch2.cpp
+  4:       binary      nothing ExpirationSwitch2.exe
+  5:       +25/-0      nothing WhileLoop4.cpp
+  6:       binary      nothing WhileLoop4.exe
+  7:       binary      nothing a.exe
+  8:       +29/-0      nothing dynamicmem.cpp
+  9:       binary      nothing dynamicmem.exe
+ 10:       +0/-33      nothing good.cpp
+ 11:        +0/-1      nothing good.docx
+ 12:       binary      nothing good.exe
+ 13:       binary      nothing switch.exe
+Revert>> 2
+           staged     unstaged path
+* 1:       binary      nothing Arrays3.exe
+* 2:       binary      nothing Expiration1.exe
+  3:       +44/-0      nothing ExpirationSwitch2.cpp
+  4:       binary      nothing ExpirationSwitch2.exe
+  5:       +25/-0      nothing WhileLoop4.cpp
+  6:       binary      nothing WhileLoop4.exe
+  7:       binary      nothing a.exe
+  8:       +29/-0      nothing dynamicmem.cpp
+  9:       binary      nothing dynamicmem.exe
+ 10:       +0/-33      nothing good.cpp
+ 11:        +0/-1      nothing good.docx
+ 12:       binary      nothing good.exe
+ 13:       binary      nothing switch.exe
+Revert>> 3 4 5 6 7 8 9 10 11 12 13
+           staged     unstaged path
+* 1:       binary      nothing Arrays3.exe
+* 2:       binary      nothing Expiration1.exe
+* 3:       +44/-0      nothing ExpirationSwitch2.cpp
+* 4:       binary      nothing ExpirationSwitch2.exe
+* 5:       +25/-0      nothing WhileLoop4.cpp
+* 6:       binary      nothing WhileLoop4.exe
+* 7:       binary      nothing a.exe
+* 8:       +29/-0      nothing dynamicmem.cpp
+* 9:       binary      nothing dynamicmem.exe
+*10:       +0/-33      nothing good.cpp
+*11:        +0/-1      nothing good.docx
+*12:       binary      nothing good.exe
+*13:       binary      nothing switch.exe
+Revert>>
+error: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 5
+No changes.
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 2
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> 7
+Bye.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Arrays3.exe
+        modified:   Expiration1.exe
+        renamed:    good.cpp -> ExpirationSwitch2.cpp
+        new file:   ExpirationSwitch2.exe
+        new file:   WhileLoop4.cpp
+        new file:   WhileLoop4.exe
+        deleted:    a.exe
+        new file:   dynamicmem.cpp
+        new file:   dynamicmem.exe
+        deleted:    good.docx
+        deleted:    good.exe
+        modified:   switch.exe
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git restore --staged -a
+error: unknown switch `a'
+usage: git restore [<options>] [--source=<branch>] <file>...
+
+    -s, --[no-]source <tree-ish>
+                          which tree-ish to checkout from
+    -S, --[no-]staged     restore the index
+    -W, --[no-]worktree   restore the working tree (default)
+    --[no-]ignore-unmerged
+                          ignore unmerged entries
+    --[no-]overlay        use overlay mode
+    -q, --[no-]quiet      suppress progress reporting
+    --[no-]recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --[no-]progress       force progress reporting
+    -m, --[no-]merge      perform a 3-way merge with the new branch
+    --[no-]conflict <style>
+                          conflict style (merge, diff3, or zdiff3)
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --[no-]patch      select hunks interactively
+    --[no-]ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git restore --staged
+fatal: you must specify path(s) to restore
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Arrays3.exe
+        modified:   Expiration1.exe
+        renamed:    good.cpp -> ExpirationSwitch2.cpp
+        new file:   ExpirationSwitch2.exe
+        new file:   WhileLoop4.cpp
+        new file:   WhileLoop4.exe
+        deleted:    a.exe
+        new file:   dynamicmem.cpp
+        new file:   dynamicmem.exe
+        deleted:    good.docx
+        deleted:    good.exe
+        modified:   switch.exe
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git restore Arrays3.exe Expiration1.exe Expiration2.cpp
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --[no-]dry-run    dry run
+    -v, --[no-]verbose    be verbose
+
+    -i, --[no-]interactive
+                          interactive picking
+    -p, --[no-]patch      select hunks interactively
+    -e, --[no-]edit       edit current diff and apply
+    -f, --[no-]force      allow adding otherwise ignored files
+    -u, --[no-]update     update tracked files
+    --[no-]renormalize    renormalize EOL of tracked files (implies -u)
+    -N, --[no-]intent-to-add
+                          record only the fact that the path will be added later
+    -A, --[no-]all        add changes from all tracked and untracked files
+    --[no-]ignore-removal ignore paths removed in the working tree (same as --no-all)
+    --[no-]refresh        don't add, only refresh the index
+    --[no-]ignore-errors  just skip files which cannot be added because of errors
+    --[no-]ignore-missing check if - even missing - files are ignored in dry run
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]chmod (+|-)x   override the executable bit of the listed files
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git pull remote add origin
+fatal: 'remote' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add ExpirationSwitch2.cpp
+fatal: Unable to create 'C:/Users/lusekero/Documents/COM 221/Projects/MyFirstProject/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ ^C
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add ExpirationSwitch2.cpp
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add WhileLoop4.cpp
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git commit -m "updated list"
+[main fbdb835] updated list
+ 12 files changed, 81 insertions(+), 17 deletions(-)
+ create mode 100644 Arrays3.exe
+ rename good.cpp => ExpirationSwitch2.cpp (70%)
+ create mode 100644 ExpirationSwitch2.exe
+ create mode 100644 WhileLoop4.cpp
+ create mode 100644 WhileLoop4.exe
+ delete mode 100644 a.exe
+ create mode 100644 dynamicmem.cpp
+ create mode 100644 dynamicmem.exe
+ delete mode 100644 good.docx
+ delete mode 100644 good.exe
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -U origin main
+error: unknown switch `U'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push Advanced-Programming main
+fatal: 'Advanced-Programming' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push origin feature -branch
+error: did you mean `--branch` (with two dashes)?
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push origin feature-branch
+error: src refspec feature-branch does not match any
+error: failed to push some refs to 'origin'
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -U origin main
+error: unknown switch `U'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git add remote origin https://github.com/Luekie/Advanced-Programming
+fatal: pathspec 'remote' did not match any files
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git remote add origin https://github.com/Luekie/Advanced-Programming
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 69.56 KiB | 3.86 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/Luekie/Advanced-Programming
+   d211b43..fbdb835  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+Lusekero@Bender MINGW64 /c/users/lusekero/documents/com 221/projects/myfirstproject (main)
+$ git push -u origin main
