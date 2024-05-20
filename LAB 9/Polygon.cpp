@@ -1,4 +1,3 @@
-#pragma once
 #include "Polygon.h"
 void Polygon::SetValues(int width, int height)
 {

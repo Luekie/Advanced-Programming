@@ -8,4 +8,7 @@ Mother::Mother()
 Mother::Mother(int a)
 {
  cout << "Mother: int parameter\n";
-};
+}
+Mother::~Mother() {
+    delete
+}
