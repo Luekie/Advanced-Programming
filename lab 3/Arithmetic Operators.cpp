@@ -9,7 +9,7 @@ int main(){
     c = a + b;
     cout << "Line 1 - Value of c is :" << c << endl;
 
-    c = a - b;
+    c = a - b;  
     cout << "Line 2 - Value of c is :" << c << endl;
 
     c = a * b;
