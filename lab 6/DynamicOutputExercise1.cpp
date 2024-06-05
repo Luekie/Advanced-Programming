@@ -3,12 +3,14 @@
 
 using namespace std;
 
+using namespace std;
+
 int main() {
     // Dynamically allocate an integer
     int *dynamicInt = new int;
 
     // Dynamically allocate a string
-    std::string *dynamicString = new std::string;
+    string *dynamicString = new string;
 
     
     cout << "Enter a value for the dynamically allocated integer: ";

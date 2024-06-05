@@ -14,7 +14,6 @@ int main () {
     //output the address of the first element
     cout<< "Address at pPointer: " << pPointer << endl;
     cout<< "Address of numbersArray[0]: " << numbersArray << endl;
-
     //output the value of the first element using the pointer and indirection
     cout << "Value at ++pPointer: " << *(++pPointer) << endl;
 
