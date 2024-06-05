@@ -7,7 +7,7 @@
 using namespace shape;
 using namespace std;
 
-//displays the options a user has to choose from
+//shows the options a user has to choose from
 void displayOptions();
 
 //gets the user's input and returns it
@@ -47,7 +47,6 @@ int getUserInput(){
     //display optons to choose from
     displayOptions();
 
-    //get user's input
     cin >> input;
 
     //return user's input
